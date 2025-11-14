@@ -12,4 +12,4 @@ function MyFunction() {
     output = Math.sqrt(p * (p - a) * (p - b) * (p - c));
     alert(output)
 }
-button.addEventListener("click", () => MyFunction());
+button.addEventListener('click', MyFunction);
